@@ -1,3 +1,13 @@
+import AboutUs from "./components/AboutUsSection";
+import Activities from "./components/ActivitiesSection";
+import Hero from "./components/HeroSection";
+
 export default function Home() {
-  return <h1>Digital IT Hub page</h1>;
+  return (
+    <div>
+      <Hero />
+      <Activities />
+      <AboutUs />
+    </div>
+  );
 }
