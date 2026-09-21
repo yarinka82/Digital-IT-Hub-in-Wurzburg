@@ -1,3 +1,8 @@
 export default function AboutUs() {
-  return <div>About us section template</div>;
+  return (
+    <section>
+      <h2>About us title</h2>
+      <p>About us content</p>
+    </section>
+  );
 }

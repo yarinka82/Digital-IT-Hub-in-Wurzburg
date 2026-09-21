@@ -1,3 +1,8 @@
 export default function Activities() {
-  return <div>Activities section template</div>;
+  return (
+    <section>
+      <h2>Activities title</h2>
+      <p>Activities content</p>
+    </section>
+  );
 }

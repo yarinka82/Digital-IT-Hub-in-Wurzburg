@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <div>Footer template</div>;
+  return (
+    <div>
+      <p>Footer content</p>
+    </div>
+  );
 }
