@@ -40,7 +40,7 @@ Sets up the foundational Next.js (App Router) project structure for [project nam
 
 **Components**
 
-- `src/app/components/` — homepage-only components, colocated since they're not reused elsewhere: `HeroSection`, `ActivitiesSection`, `AboutUsSection`, `CategoryCard`, `FounderCard`
+- `src/app/components/` — homepage-only components, colocated since they're not reused elsewhere: `HeroSection`, `SocialMediaSection`, `ActivitiesSection`, `AboutUsSection`, `PartnersSection`, `CategoryCard`, `FounderCard`
 - `src/components/` — shared components used across multiple routes: `Header`, `Footer`
 - All components currently return placeholder markup to verify they render without errors — no real styling or content yet
 
