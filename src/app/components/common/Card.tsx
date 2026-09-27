@@ -16,7 +16,7 @@ type CardProps = {
 };
 
 export default function Card({ className = "", cardInfo }: CardProps) {
-  const cardStyles = twMerge("flex flex-col gap-3 justify-center", className);
+  const cardStyles = twMerge("flex flex-col h-full gap-3 justify-center", className);
 
   const cardContent = (
     <>
@@ -30,7 +30,7 @@ export default function Card({ className = "", cardInfo }: CardProps) {
         />
       )}
       <h3 className="text-[18px] md:text-xl">{cardInfo.title}</h3>
-      <p>{cardInfo.description}</p>
+      <p className="text-left hyphens-auto" >{cardInfo.description}</p>
     </>
   );
 

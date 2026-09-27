@@ -36,15 +36,15 @@ export default function Header() {
   }, [isOpen]);
 
   return (
-    <header className="py-4 relative border-b border-[#1a1a1a]">
+    <header className="py-4 w-full relative border-b border-[#1a1a1a]">
       <Container className="flex items-center justify-between">
         <Logo />
         <Navigation
           isOpen={isOpen}
           className={twMerge(
             isOpen
-              ? "fixed top-20 right-0 w-full p-10 bg-(--color-background) translate-x-0 opacity-100 transition-translate duration-500 "
-              : "fixed top-20 right-0 p-10 translate-x-full opacity-0 transition-translate duration-500",
+              ? "fixed top-20 right-0 w-full p-10 bg-(--background) translate-x-0 opacity-100 transition-translate duration-500 "
+              : "fixed top-20 right-0 p-10 translate-x-full opacity-50 transition-translate duration-500",
             baseNavStyle,
           )}
         />
