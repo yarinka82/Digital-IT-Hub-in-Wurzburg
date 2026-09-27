@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+        <symbol id="arrow-right" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.93335 8H13.7333" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M9.59998 3.33337L14.2666 8.00004L9.59998 12.6667" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="nav" width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="5.86914" y1="3.66663" x2="30.9996" y2="3.66663" stroke="#121417" stroke-width="2" stroke-linecap="round"/>
+            <line x1="5.86914" y1="17" x2="30.9996" y2="17" stroke="#121417" stroke-width="2" stroke-linecap="round"/>
+            <line x1="13.5215" y1="10.3334" x2="30.9997" y2="10.3334" stroke="#121417" stroke-width="2" stroke-linecap="round"/>
+        </symbol>
+        <symbol id="x" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 8L8 24" strokek="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 8L24 24" strokek="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="search" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.16667 15.8333C12.8486 15.8333 15.8333 12.8486 15.8333 9.16667C15.8333 5.48477 12.8486 2.5 9.16667 2.5C5.48477 2.5 2.5 5.48477 2.5 9.16667C2.5 12.8486 5.48477 15.8333 9.16667 15.8333Z" stroke="#121417" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 17.5L13.875 13.875" stroke="#121417" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="checked"  viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="16" height="16" rx="8" stroke="currentColor" stroke-width="2"/>
+            <rect x="4" y="4" width="10" height="10" rx="5" fill="currentColor"/>
+        </symbol>
+        <symbol id="unchecked"  viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="16" height="16" rx="8" stroke="currentColor" stroke-width="2"/>
+        </symbol>
+        <symbol id="plus" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 4.16669V15.8334" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.16797 10H15.8346" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="link-right" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.33203 10H16.6654M16.6654 10L13.332 6.66669M16.6654 10L13.332 13.3334" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="icon-close"  viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 8L8 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 8L24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="next" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.94 4L6 4.94L9.05333 8L6 11.06L6.94 12L10.94 8L6.94 4Z" fill="CurrentColor"/>
+        </symbol>
+        <symbol id="prev" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.06 12L11 11.06L7.94667 8L11 4.94L10.06 4L6.06 8L10.06 12Z" fill="CurrentColor"/>
+        </symbol>
+        <symbol id="burger-icon" viewBox="0 0 31 32">
+            <path stroke-linecap="round" stroke-width="1.293" d="M7.273 9.535h16.485M7.273 21.172h16.485M7.273 15.354h16.485"/>
+        </symbol>
+        <symbol id="close-x-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 8L8 24" stroke="current Color" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8 8L24 24" stroke="current Color" stroke-linecap="round" stroke-linejoin="round"/>
+        </symbol>
+        <symbol id="select-up" viewBox="0 0 16 16">
+            <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M7.14663 4.14689C7.19308 4.10033 7.24825 4.06339 7.309 4.03818C7.36974 4.01297 7.43486 4 7.50063 4C7.5664 4 7.63152 4.01297 7.69226 4.03818C7.75301 4.06339 7.80819 4.10033 7.85463 4.14689L13.8546 10.1469C13.9485 10.2408 14.0013 10.3681 14.0013 10.5009C14.0013 10.6337 13.9485 10.761 13.8546 10.8549C13.7607 10.9488 13.6334 11.0015 13.5006 11.0015C13.3679 11.0015 13.2405 10.9488 13.1466 10.8549L7.50063 5.20789L1.85463 10.8549C1.76075 10.9488 1.63341 11.0015 1.50063 11.0015C1.36786 11.0015 1.24052 10.9488 1.14663 10.8549C1.05274 10.761 1 10.6337 1 10.5009C1 10.3681 1.05274 10.2408 1.14663 10.1469L7.14663 4.14689Z"
+      />
+        </symbol>
+    </defs>
+</svg>
