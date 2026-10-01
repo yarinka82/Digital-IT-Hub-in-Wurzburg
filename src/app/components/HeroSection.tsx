@@ -1,8 +1,12 @@
 export default function Hero() {
   return (
     <section>
-      <h1>Hero title</h1>
-      <p>Hero content</p>
+      <h1>Das Gesicht unseres IT Vereins</h1>
+      <p>
+        „Werde Teil der IT-Community aus Deutschland! Lerne, tausche Erfahrungen
+        aus, erweitere deine Fähigkeiten und gestalte die digitale Welt von
+        morgen.“
+      </p>
     </section>
   );
 }
