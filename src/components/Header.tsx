@@ -14,6 +14,8 @@ export default function Header() {
     "md:static md:block md:translate-x-0 md:opacity-100 md:p-0 md:w-auto";
 
   useEffect(() => {
+    let isScrolling = false;
+
     const mediaQuery = window.matchMedia("(min-width: 768px)");
 
     const handleBreakPointClose = (e: MediaQueryListEvent) => {
@@ -24,23 +26,44 @@ export default function Header() {
       if (!mediaQuery.matches && e.key === "Escape") setIsOpen(false);
     };
 
+    const handleScroll = () => {
+      if (window.location.hash) {
+        if (!isScrolling) {
+          isScrolling = true;
+
+          setTimeout(() => {
+            window.history.replaceState(
+              null,
+              "",
+              window.location.pathname + window.location.search,
+            );
+            isScrolling = false;
+          }, 100);
+        }
+      }
+    };
+
     mediaQuery.addEventListener("change", handleBreakPointClose);
     if (isOpen) window.addEventListener("keydown", handleCloseEscape);
+
+    window.addEventListener("scroll", handleScroll);
 
     document.body.style.overflowY = isOpen ? "hidden" : "";
     return () => {
       mediaQuery.removeEventListener("change", handleBreakPointClose);
       document.body.style.overflowY = "";
       window.removeEventListener("keydown", handleCloseEscape);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [isOpen]);
 
   return (
-    <header className="py-4 w-full relative border-b border-[#1a1a1a]">
+    <header className="fixed z-900 py-4 w-full border-b border-[#1a1a1a] bg-black/50 backdrop-blur-md">
       <Container className="flex items-center justify-between">
-        <Logo />
+        <Logo onClick={() => setIsOpen(false)} />
         <Navigation
           isOpen={isOpen}
+          onClick={() => setIsOpen(false)}
           className={twMerge(
             isOpen
               ? "fixed top-20 right-0 w-full p-10 bg-(--background) translate-x-0 opacity-100 transition-translate duration-500 "

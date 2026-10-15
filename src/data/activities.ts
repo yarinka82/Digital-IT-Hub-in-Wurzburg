@@ -1,4 +1,13 @@
-export const activities = [
+export type Activities = {
+  id: string;
+  title: string;
+  description: string;
+  fotoUrl: string;
+  alt: string;
+  link?: string;
+};
+
+export const activities: Activities[] = [
   {
     id: "1",
     title: "Workshops",

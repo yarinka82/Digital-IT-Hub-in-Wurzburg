@@ -8,12 +8,14 @@ interface NavLinkProps {
   children: React.ReactNode;
   href: string;
   className?: string;
+  onClick?: () => void;
 }
 
 export default function NavLink({
   href,
   children,
   className = "",
+  onClick,
 }: NavLinkProps) {
   const pathname = usePathname();
 
@@ -22,6 +24,7 @@ export default function NavLink({
   return (
     <Link
       href={href}
+      onClick={onClick}
       className={twMerge(
         "relative block font-semibold text-lg transition-colors duration-100",
         "after:absolute after:-bottom-0.75 after:h-1 after:left-0 after:w-full md:after:h-1 after:origin-left after:scale-x-0 after:transition-transform after:duration-300",

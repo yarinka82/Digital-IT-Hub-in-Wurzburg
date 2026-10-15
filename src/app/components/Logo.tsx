@@ -2,10 +2,17 @@ import Icon from "./common/Icon";
 import { twMerge } from "tailwind-merge";
 import NavLink from "./common/NavLink";
 
-export default function Logo({ className = "" }: { className?: string }) {
+export default function Logo({
+  className = "",
+  onClick,
+}: {
+  className?: string;
+  onClick?: () => void;
+}) {
   return (
     <NavLink
       href={"/"}
+      onClick={() => onClick?.()}
       className={twMerge(
         "group perspective-[1000px] text-[#00aaff] after:opacity-0 flex items-center gap-3 font-normal transition-transform duration-200",
         className,
