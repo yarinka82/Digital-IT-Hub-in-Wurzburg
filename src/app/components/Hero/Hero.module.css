@@ -1,0 +1,93 @@
+@keyframes hero-bg-dash {
+  to {
+    stroke-dashoffset: -480;
+  }
+}
+
+@keyframes hero-bg-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -12px;
+  }
+}
+
+@keyframes hero-bg-ambient {
+  from {
+    transform: translate3d(-1%, -1%, 0) scale(1);
+  }
+
+  to {
+    transform: translate3d(2%, 1%, 0) scale(1.06);
+  }
+}
+
+@keyframes hero-bg-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.hero-bg-ambient {
+  background:
+    radial-gradient(circle at 24% 70%, rgb(39 112 255 / 15%), transparent 24%),
+    radial-gradient(circle at 78% 35%, rgb(115 66 255 / 13%), transparent 22%);
+  filter: blur(35px);
+  animation: hero-bg-ambient 16s ease-in-out infinite alternate;
+}
+
+.hero-bg-wave {
+  fill: none;
+  stroke-width: 1.25;
+  stroke-dasharray: 9 15;
+  vector-effect: non-scaling-stroke;
+  animation: hero-bg-dash 32s linear infinite;
+}
+
+.hero-bg-wave-2 {
+  opacity: 0.52;
+  animation-duration: 39s;
+  animation-direction: reverse;
+}
+
+.hero-bg-wave-3 {
+  opacity: 0.34;
+  animation-duration: 45s;
+}
+
+.hero-bg-float {
+  animation: hero-bg-float 7s ease-in-out infinite;
+}
+
+.hero-bg-delay-1 {
+  animation-delay: -1s;
+}
+
+.hero-bg-delay-2 {
+  animation-delay: -2s;
+}
+
+.hero-bg-delay-4 {
+  animation-delay: -4s;
+}
+
+.hero-bg-pulse {
+  animation: hero-bg-pulse 4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-bg-ambient,
+  .hero-bg-wave,
+  .hero-bg-float,
+  .hero-bg-pulse {
+    animation-name: none;
+  }
+}
