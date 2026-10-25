@@ -5,5 +5,11 @@ export default function Footer() {
       <p>Wir suchen Partner, Sponsoren und IT-Interessierte für gemeinsame Projekte und Events.</p>
       <p>Wenn Sie mit uns zusammenarbeiten möchten, kontaktieren Sie uns gerne!</p>
       <a href="mailto:hubdigitalithub@gmail.com" className="bg-sky-500 px-6 py-3 rounded-lg inline-block mt-6">Schreibt uns</a>
+      <div>
+       <p>Digital IT Hub Würzburg e.V</p>
+       <p>Würzburg</p>
+       <p><a href="#">LinkedIn</a></p>
+       <p>E-Mail: <a href="mailto:hubdigitalithub@gmail.com">hubdigitalithub@gmail.com</a></p>
+      </div>
     </div>
   );}
