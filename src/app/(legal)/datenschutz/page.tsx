@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function Datenschutz() {
   return (
-    <div className="p-16 bg-white text-black">
+    <div className="p-16 bg-white text-black text-left">
       <div className="text-left">
         <Link href="/" className="text-blue-600 underline hover:text-blue-800">
           Zurück zur Startseite
         </Link>
       </div>
-      <h1 className="text-black">Datenschutzerklärung</h1>
+      <h1 className="text-black text-center">Datenschutzerklärung</h1>
       <h2 className="text-black">1. Datenschutz auf einen Blick</h2>
       <h3 className="text-black">Allgemeine Hinweise</h3>
       <p>
@@ -156,7 +156,7 @@ export default function Datenschutz() {
         in sogenannten Server-Log-Dateien, die Ihr Browser automatisch an uns
         übermittelt. Dies sind:
       </p>
-      <ul>
+      <ul className="list-disc text-left px-8">
         <li>Browsertyp und Browserversion</li>
         <li>verwendetes Betriebssystem</li>
         <li>Referrer URL</li>
