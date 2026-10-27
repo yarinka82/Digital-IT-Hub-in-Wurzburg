@@ -29,14 +29,14 @@ export default function Impressum() {
         >
           hubdigitalithub@gmail.com
         </a>
-        <p>
-          <a
-            href="mailto:wurzburg-digitalithub@web.de"
-            className="text-blue-600 underline hover:text-blue-800"
-          >
-            wurzburg-digitalithub@web.de
-          </a>
-        </p>
+      </p>
+      <p>
+        <a
+          href="mailto:wurzburg-digitalithub@web.de"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          wurzburg-digitalithub@web.de
+        </a>
       </p>
       <h2 className="text-black">Vereinsregister:</h2>
       <p>Registergericht: Amtsgericht Würzburg</p>
