@@ -36,8 +36,8 @@ Sets up the foundational Next.js (App Router) project structure for [project nam
 - Root `layout.tsx` and `page.tsx` for the homepage
 - `not-found.tsx` for a custom 404 page
 - `(pages)` route group containing the three main sections — `news`, `events`, `projects` — each with its own `page.tsx` and `loading.tsx` (currently return placeholder markup)
-- Route group syntax (`(pages)`) keeps these organized without affecting the URL structure (`/news`, `/events`, `/projects`)
 - Each section (and its `[slug]` detail page) also has its own `error.tsx` error boundary
+- `(legal)` route group containing the two main sections — `impressum`, `datenschutz` — each with its own `page.tsx`
 
 **Components**
 
