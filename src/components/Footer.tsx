@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <div>
@@ -12,5 +14,9 @@ export default function Footer() {
        <p>E-Mail: <a href="mailto:hubdigitalithub@gmail.com">hubdigitalithub@gmail.com</a></p>
       </div>
        <p>© 2025 Digital IT Hub Würzburg e.V Deutschland. Alle Rechte vorbehalten.</p>
+      <div className="flex justify-center gap-4">
+       <Link href="/impressum">Impressum</Link>
+       <Link href="/datenschutz">Datenschutz</Link>
+      </div>
     </div>
   );}
