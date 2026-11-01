@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
       <div>
        <p>Digital IT Hub Würzburg e.V</p>
        <p>Würzburg</p>
-       <p><a href="https://www.linkedin.com/groups/10076160/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+       <p><a href="https://www.linkedin.com/groups/10076160/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2"><FaLinkedin /> LinkedIn</a></p>
        <p>E-Mail: <a href="mailto:hubdigitalithub@gmail.com">hubdigitalithub@gmail.com</a></p>
       </div>
        <p>© 2025 Digital IT Hub Würzburg e.V Deutschland. Alle Rechte vorbehalten.</p>
