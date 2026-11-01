@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -7,7 +7,7 @@ export default function Footer() {
       <h2>Kooperation & Zusammenarbeit</h2>
       <p>Wir suchen Partner, Sponsoren und IT-Interessierte für gemeinsame Projekte und Events.</p>
       <p>Wenn Sie mit uns zusammenarbeiten möchten, kontaktieren Sie uns gerne!</p>
-      <a href="mailto:hubdigitalithub@gmail.com" className="bg-sky-500 px-6 py-3 rounded-lg inline-block mt-6">Schreibt uns</a>
+      <a href="mailto:hubdigitalithub@gmail.com" className="bg-sky-500 px-6 py-3 rounded-lg inline-flex items-center gap-2 mt-6"><FaEnvelope /> Schreibt uns</a>
       <div>
        <p>Digital IT Hub Würzburg e.V</p>
        <p>Würzburg</p>
