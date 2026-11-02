@@ -4,7 +4,7 @@ import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 export default function Footer() {
   return (
     <div>
-    <div className="bg-neutral-900 rounded-2xl p-8 max-w-4xl mx-auto">
+    <div className="bg-neutral-900 rounded-2xl p-8 max-w-7xl mx-auto">
       <h2 className="mb-4">Kooperation & Zusammenarbeit</h2>
       <p className="mb-3">Wir suchen Partner, Sponsoren und IT-Interessierte für gemeinsame Projekte und Events.</p>
       <p>Wenn Sie mit uns zusammenarbeiten möchten, kontaktieren Sie uns gerne!</p>
