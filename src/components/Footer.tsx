@@ -8,7 +8,7 @@ export default function Footer() {
       <h2 className="mb-4">Kooperation & Zusammenarbeit</h2>
       <p className="mb-3">Wir suchen Partner, Sponsoren und IT-Interessierte für gemeinsame Projekte und Events.</p>
       <p>Wenn Sie mit uns zusammenarbeiten möchten, kontaktieren Sie uns gerne!</p>
-      <a href="mailto:hubdigitalithub@gmail.com" className="bg-sky-500 px-6 py-3 rounded-lg inline-flex items-center gap-2 mt-8 text-black  font-semibold"><FaEnvelope className="text-white" /> Schreibt uns</a>
+      <a href="mailto:hubdigitalithub@gmail.com" className="bg-sky-500 px-10 py-3 rounded-lg inline-flex items-center gap-2 mt-8 text-black  font-semibold"><FaEnvelope className="text-white" /> Schreibt uns</a>
       <div className="mt-28 text-neutral-500">
        <p>Digital IT Hub Würzburg e.V</p>
        <p>Würzburg</p>
