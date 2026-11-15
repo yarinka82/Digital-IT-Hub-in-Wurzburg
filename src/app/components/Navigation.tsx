@@ -26,7 +26,7 @@ export default function Navigation({
       href: "/#activity",
       label: "Unsere Aktivitäten",
       dropdownItems: [
-        { id: "activity", title: "Worckshops", url: "/worckshops" },
+        { id: "activity", title: "Workshops", url: "/news" },
         { id: "project", title: "Projekte", url: "/projects" },
         { id: "events", title: "Events & Networking", url: "/events" },
       ],

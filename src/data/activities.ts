@@ -15,7 +15,7 @@ export const activities: Activities[] = [
       "Praktische Trainings, Hackathons und Coding-Sessions für alle IT-Begeisterten.",
     fotoUrl: "/images/workshop.jpg",
     alt: "",
-    link: "/workshops",
+    link: "/news",
   },
   {
     id: "2",
@@ -24,7 +24,7 @@ export const activities: Activities[] = [
       "Gemeinsame Open-Source-Projekte, Softwareentwicklung und digitale Innovationen.",
     fotoUrl: "/images/projects.jpg",
     alt: "",
-    link: "/projekts",
+    link: "/projects",
   },
   {
     id: "3",
