@@ -16,7 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="de" className={`${inter.variable} antialiased`}>
       <body className="min-h-screen flex flex-col text-center">
         <Header />
-        <main className="w-full flex-1">{children}</main>
+        <main className="w-full flex-1 pt-[80px]">{children}</main>
         <Footer />
       </body>
     </html>
