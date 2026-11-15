@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   env: {
     BUILD_TIME_VERSION: Date.now().toString(),
   },
+  devIndicators: false,
 };
 
 export default nextConfig;
